@@ -1,6 +1,7 @@
 from env import username, password, hostname
 import numpy as np
 import pandas as pd
+from wrangle_g import prep_cur_df
 
 class Wrangle:
 
@@ -31,3 +32,7 @@ class Wrangle:
         df = df.set_index(df["date_time"]).drop(["date", "time", "date_time"], axis=1)
 
         return df
+
+    def get_work(self):
+
+        return prep_cur_df()
