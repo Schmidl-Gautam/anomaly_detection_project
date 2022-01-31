@@ -5,12 +5,22 @@ import pandas as pd
 class Wrangle:
 
     def get_data(self):
+        """get_data creates dataframe from filename
+
+        Returns:
+            pandas dataframe: returns the curriculum logs dataframe
+        """
 
         filename = "curriculum_logs.csv"
 
         return pd.read_csv(filename)
 
     def prep_data(self):
+        """prep_data does some minor prep and feature engineering
+
+        Returns:
+            pandas dataframe: returns a prepped dataframe
+        """
 
         df = Wrangle().get_data()
 
