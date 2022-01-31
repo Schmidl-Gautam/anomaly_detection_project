@@ -14,7 +14,7 @@ class Wrangle:
 
         df = Wrangle().get_data()
 
-        df["program_ name"] = np.where(df["program_id"] == 3, "data science", "web dev")
+        df["program_name"] = np.where(df["program_id"] == 3, "data science", "web dev")
 
         df["date_time"] = pd.to_datetime(df['date'] + " " + df['time'])
 
