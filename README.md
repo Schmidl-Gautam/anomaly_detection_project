@@ -29,40 +29,40 @@ Rajaram Gautam  and Scott Schmidl ---------January 31, 2022 -------------- Submi
 The top five lessons or topic accross each programs area as follows:
 
 ###### PHP FULL STACK WEB DEV:
-|Index | Lesson / Topic | Access Count 
+|Index | Lesson / Topic | Access Count
 |---|---|---|
-|0 |  index.html                         | 1011 
-|1 |  javascript-i                       | 736 
-|2 |  html-css                           | 542 
-|3 |  spring                             | 501 
+|0 |  index.html                         | 1011
+|1 |  javascript-i                       | 736
+|2 |  html-css                           | 542
+|3 |  spring                             | 501
 |4 |  java-iii                           | 479
 
 
 ###### JAVA FULL STACK WEB DEV:
-|Index | Lesson / Topic | Access Count 
+|Index | Lesson / Topic | Access Count
 |---|---|---|
 |0 |  javascript-i                         | 17457
-|1 |  java-iii                             | 12683 
+|1 |  java-iii                             | 12683
 |2 |  html-css                             | 12569
-|3 |  java-ii                              | 11719 
+|3 |  java-ii                              | 11719
 |4 |  spring                               | 11376
 
 
 ###### FRONT END WEB DEV:
-|Index | Lesson / Topic | Access Count 
+|Index | Lesson / Topic | Access Count
 |---|---|---|
 |0 |  content/html-css                             | 2
-|1 |  content/html-css/gitbook/images/favicon.ico  | 1 
+|1 |  content/html-css/gitbook/images/favicon.ico  | 1
 |2 |  content/html-css/introduction.html           | 1
 
 
 ###### DATA SCIENCE:
-|Index | Lesson / Topic | Access Count 
+|Index | Lesson / Topic | Access Count
 |---|---|---|
 |0 |  classification/overview                         | 1785
-|1 |  1-fundamentals/1.1-intro-to-data-science        | 1633 
+|1 |  1-fundamentals/1.1-intro-to-data-science        | 1633
 |2 |  sql/mysql-overview                              | 1424
-|3 |  fundamentals/intro-to-data-science              | 1413 
+|3 |  fundamentals/intro-to-data-science              | 1413
 |4 |  6-regression/1-overview                         | 1124
 
 
@@ -78,12 +78,12 @@ The top five lessons or topic accross each programs area as follows:
 
 ### 3. Are there students who, when active, hardly access the curriculum? If so, what information do you have about these students?
 ###### Findings:
-|Index | USER_ID | Access Count 
+|Index | USER_ID | Access Count
 |---|---|---|
 |0 |  679        | 4
-|1 |  956        | 3 
+|1 |  956        | 3
 |2 |  278        | 3
-|3 |  539        | 3 
+|3 |  539        | 3
 |4 |  832        | 2
 
 
@@ -104,7 +104,7 @@ For web Dev, they did seem to access the Data Science curriculum fairly often pr
 ### 6. What topics are grads continuing to reference after graduation and into their jobs (for each program)?
 ### Findings:
 Overall, the top ten lessons accessed by post grads are:
-|Index | Lesson | Access Count 
+|Index | Lesson | Access Count
 |---|---|---|
 |0 |javascript-i   |4969
 |1 |spring         |4272
@@ -118,23 +118,23 @@ Overall, the top ten lessons accessed by post grads are:
 |9 |index.html     |1721
 
 ###### Top 3 for PHP
-|Index | Lesson | Access Count 
+|Index | Lesson | Access Count
 |---|---|---|
 |0 |index.html    |1011
 |1 |javascript-i  |736
 |2 |html-css      |542
-      
+
 
 ###### Top 3 for JAVA
-|Index | Lesson | Access Count 
+|Index | Lesson | Access Count
 |---|---|---|
 |0 |javascript-i    |4233
 |1 |spring          |3771
 |2 |html-css        |3145
 
 
-###### Top 3 for FRONT END 
-|Index | Lesson | Access Count 
+###### Top 3 for FRONT END
+|Index | Lesson | Access Count
 |---|---|---|
 |0 |content/html-css                                 |2
 |1 |content/html-css/gitbook/images/favicon.ico      |1
@@ -142,14 +142,14 @@ Overall, the top ten lessons accessed by post grads are:
 
 
 ###### Top 3 for DS
-|Index | Lesson | Access Count 
+|Index | Lesson | Access Count
 |---|---|---|
 |0 |sql/mysql-overview              |275
 |1 |classification/overview         |267
 |2 |anomaly-detection/overview      |191
 
 ### 7. Which lessons are least accessed?
-|Index | Lesson | Access Count 
+|Index | Lesson | Access Count
 |---|---|---|
 |0 |npm                                                            | 1
 |1 |web-design/ux/layout/.json                                     | 1
@@ -166,29 +166,29 @@ Overall, the top ten lessons accessed by post grads are:
 
 
 # Data dictionary
-|Index | Column Name | Description 
+|Index | Column Name | Description
 |---|---|---|
-|0 |  path              | URL Path                               
-|1 |  user_id           | User ID                              
-|2 |  cohort_id         | Cohort ID                      
-|3 |  ip                | IP Address                            
-|4 |  name              | Cohort Name                            
-|5 |  slack             | Slack Name                            
-|6 |  start_date        | Start Date 
-|7 |  end_date          | End Date                                     
-|8 |  created_at        | Created Date                   
-|9 |  updated_at        | Updated Date                        
-|10|  program_id        | Program ID                                      
-|11|  course_name       | Course Name                                     
+|0 |  path              | URL Path
+|1 |  user_id           | User ID
+|2 |  cohort_id         | Cohort ID
+|3 |  ip                | IP Address
+|4 |  name              | Cohort Name
+|5 |  slack             | Slack Name
+|6 |  start_date        | Start Date
+|7 |  end_date          | End Date
+|8 |  created_at        | Created Date
+|9 |  updated_at        | Updated Date
+|10|  program_id        | Program ID
+|11|  course_name       | Course Name
 |12|  course_subdomain  | Subdomain
-|13|  date_time         | date time (Derived Column) 
-|14|  date_year         | Year Timestamp 
-|15|  date_month        | Month Timestamp 
-|16|  date_weekday      | Weekday Timestamp 
-|17|  hour              | Hour Timestamp 
+|13|  date_time         | date time (Derived Column)
+|14|  date_year         | Year Timestamp
+|15|  date_month        | Month Timestamp
+|16|  date_weekday      | Weekday Timestamp
+|17|  hour              | Hour Timestamp
 
 
- 
+
 # Project Specifications
 
 ### Plan:
@@ -214,5 +214,5 @@ Steps performed in preparation phase in order are as follows:
 
 - Read this README.md
 - Clone the repo to your local working directory
-- Run the final_report.ipynb notebook
+- Run the report.ipynb notebook
 
